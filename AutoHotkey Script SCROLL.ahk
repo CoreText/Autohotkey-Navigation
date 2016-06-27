@@ -51,6 +51,10 @@ return
 ;~MButton & WheelUp::Send {PgUp}
 
 
+#Esc::Run OneLoupe_x64.exe
+
+
+
 
 ;SC159 & `::
 #`::
@@ -61,7 +65,7 @@ return
 
 #q::Send, #{4}
 #w::Send, #{8}
-#/::Send, ^!+{/}
+#/::Run Everything.exe
 #+a::Run Metapath.exe
 ;#a::Run npd2.bat
 #a::Run, AkelPad.exe
